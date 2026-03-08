@@ -8,3 +8,6 @@ When flexing the direction of rows its left to right while columns are up and do
 
 When using relative units we allow the page to scale dynamically when using fixed pixels it cant
 
+## AI Attribution
+
+I need help with the sizing of my navbar and flexbox so i prompted "help me edit this to make it smaller" and then from there i self edited 
