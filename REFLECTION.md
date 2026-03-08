@@ -1,14 +1,9 @@
-1 Describe the path an HTTP Request takes from a browser to your GitHub Pages site?
+# Reflection – HW2: Responsive Portfolio
 
-A 404 request can be a path that can be taken especially if an error occurs with setting up the page itself
+## Difference between flex direction row and column
 
-2. We discussed Docker Containers in class. Explain how a Docker Container differs from the
-environment provided by GitHub Pages?
+When flexing the direction of rows its left to right while columns are up and down
 
-Docker Containers contain the environment of a project/proudct while github pages is just helping you with the deployment of the files
+## Why is it important to use relative units (like %, vh, or rem) instead of fixed pixels (px) for responsive design?
 
-3. AI Attribution: If you used GenAI (ChatGPT, Claude, etc.) to help write code, you must
-include the prompt you used and explain one logic error the AI made that you had to fix
-manually.
-
-None used i just looked up some libraries to help with the CSS also referenced old projects ive done
+When using relative units we allow the page to scale dynamically when using fixed pixels it cant

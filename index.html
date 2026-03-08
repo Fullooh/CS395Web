@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <span class="nav-logo">Angst Gregory</span>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
     <header>
         <h1 class="name-header animated-item">Angst Gregory</h1>
         <img src="assets/angst-gregory.jpg" alt="selfie" class="profile-pic animated-item">
     </header>
     <main>
-        <h1 class="about-header animated-item">About Me</h1>
+        <h1 class="about-header animated-item" id="about">About Me</h1>
             <p class="About about-intro animated-item"> I'm Angst Gregory, a dedicated and ambitious individual currently pursuing a Bachelor's degree in Computer Science. With an Associate's degree in Business Management already under my belt, I bring a unique blend of business acumen and technical expertise to the table. When I'm not buried in my studies or working on coding projects, I enjoy watching baseball, playing video games, and spending quality time with friends. My favorite game to unwind with is Valorant, but I'm always open to exploring new titles and experiences.
             </p>
 
@@ -24,7 +32,7 @@
             Whether it's developing web applications, working on data analysis, or exploring new programming languages, I approach every challenge with curiosity and determination. I'm particularly interested in full-stack development and the intersection of business strategy and technology implementation.
             </p>
 
-        <h1 class="work-header animated-item">Work Experience</h1>
+        <h1 class="work-header animated-item" id="work">Work Experience</h1>
             <section id="Work">
 
             <table class="work-table animated-item">
@@ -90,13 +98,14 @@
             </table>
             </section>
 
-        <h1 class="projects-header animated-item">Projects</h1>
+        <h1 class="projects-header animated-item" id="projects">Projects</h1>
         <p class="Projects animated-item">
         Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
         </p>
 
         <div class="project-grid animated-item">
             <div class="project-card">
+                <img src="https://placehold.co/400x200/2c3e50/ffffff?text=Portfolio" alt="Personal Portfolio screenshot" class="project-img">
                 <h3><a href="https://angstdev.com/" target="_blank" rel="noopener noreferrer" class="project-link">Personal Portfolio</a></h3>
                 <p>My personal portfolio website showcasing my projects, skills, and professional experience.</p>
                 <div class="project-tags">
@@ -106,12 +115,23 @@
                 </div>
             </div>
             <div class="project-card">
+                <img src="https://placehold.co/400x200/2c3e50/ffffff?text=SyntaxSocial" alt="SyntaxSocial screenshot" class="project-img">
                 <h3><a href="https://syntaxsocial.net/" target="_blank" rel="noopener noreferrer" class="project-link">SyntaxSocial</a></h3>
                 <p>A social media platform that allows users to share their thoughts and ideas with others.</p>
                 <div class="project-tags">
                     <span class="tag">React</span>
                     <span class="tag">Tailwind</span>
                     <span class="tag">Firebase</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://placehold.co/400x200/2c3e50/ffffff?text=ResumeTalk" alt="ResumeTalk screenshot" class="project-img">
+                <h3><a href="https://github.com/Fullooh" target="_blank" rel="noopener noreferrer" class="project-link">ResumeTalk</a></h3>
+                <p>An AI-driven application that analyzes resumes and provides actionable feedback for job seekers.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">OpenAI</span>
+                    <span class="tag">Flask</span>
                 </div>
             </div>
         </div>
